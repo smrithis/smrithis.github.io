@@ -9,6 +9,7 @@
     height: 300px;     /* Adjust as needed */
     object-fit: cover; /* Ensures the image fits within the circular frame */
     border: 2px solid #333; /* Optional: Add a border */
+    transform: scale(1.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
   }
   .site-title {
