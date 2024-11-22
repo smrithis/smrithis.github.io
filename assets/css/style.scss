@@ -12,27 +12,32 @@
     transform: scale(1.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
   }
-  .site-title {
+
+.site-title {
     font-size: 1.5rem; /* Adjust the size as needed */
     font-weight: bold; /* Optional: Make it bold */
     color: #333; /* Optional: Change text color */
     text-align: center; /* Optional: Center-align the title */
     margin: 20px 0; /* Optional: Add space around the title */
 }
+
 .social-media-links {
     display: flex;
     gap: 10px;
     list-style-type: none;
     padding: 0;
 }
+
 .social-media-links li {
     display: inline-block;
 }
+
 .social-icon {
     width: 32px; /* Adjust size as needed */
     height: 30px;
     transition: transform 0.2s ease-in-out;
 }
+
 .social-icon:hover {
     transform: scale(1.2); /* Slight zoom on hover */
 }
