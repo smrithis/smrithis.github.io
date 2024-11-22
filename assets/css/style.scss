@@ -7,8 +7,9 @@
     border-radius: 5%; /* Makes the logo circular */
     width: 300px;      /* Adjust as needed */
     height: 300px;     /* Adjust as needed */
-    object-fit: cover; /* Ensures the image fits within the circular frame */
-    border: 2px solid #333; /* Optional: Add a border */
+    object-fit: contain; /* Ensures the image fits within the circular frame */
+    image-rendering: auto; /* Default scaling for clarity */
+    border: 1px solid #333; /* Optional: Add a border */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
   }
 
