@@ -3,6 +3,12 @@
 
 @import "jekyll-theme-minimal";
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the page takes the full viewport height */
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -14,7 +20,7 @@ header {
 
 .frame-logo {
     border-radius: 5%; /* Makes the logo circular */
-    max-height: 300px; /* Control the logo size */
+    max-height: 500px; /* Control the logo size */
     width: auto;
     object-fit: contain; /* Ensures the image fits within the circular frame */
     image-rendering: auto; /* Default scaling for clarity */
@@ -48,4 +54,11 @@ header h1.site-title a {
 
 .social-icon:hover {
     transform: scale(1.2); /* Slight zoom on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px; /* Adds spacing above the footer */
+    position: relative;
+    clear: both; /* Ensures footer is pushed below floated elements */
 }
