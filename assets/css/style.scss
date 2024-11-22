@@ -14,7 +14,7 @@ header {
 
 .frame-logo {
     border-radius: 5%; /* Makes the logo circular */
-    max-height: 500px; /* Control the logo size */
+    max-height: 400px; /* Control the logo size */
     width: auto;
     object-fit: contain; /* Ensures the image fits within the circular frame */
     image-rendering: auto; /* Default scaling for clarity */
@@ -40,9 +40,9 @@ header h1.site-title a {
 
 .social-icon {
     height: 30px;
-+   width: auto;
-+   object-fit: contain; /* Ensures the image fits within the circular frame */
-+   image-rendering: auto; /* Default scaling for clarity */
+    width: auto;
+    object-fit: contain; /* Ensures the image fits within the circular frame */
+    image-rendering: auto; /* Default scaling for clarity */
     transition: transform 0.2s ease-in-out;
 }
 
