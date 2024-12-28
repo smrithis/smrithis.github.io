@@ -30,9 +30,12 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
-
+         
         {% if site.show_socialmedia %}
         <ul class="social-media-links">
+          <li><a href="{{ site.social_media.googlescholar }}" target="_blank">
+            <img src="/assets/img/googlescholar-logo.png" alt="Googlescholar" class="social-icon">
+          </a></li>
           <li><a href="{{ site.social_media.github }}" target="_blank">
             <img src="/assets/img/github-logo.png" alt="GitHub" class="social-icon">
           </a></li>
@@ -50,11 +53,24 @@
         </ul>
         {% endif %}
       </header>
+
       <section>
-
-      {{ content }}
-
+        <div class="container">
+          <!-- Navigation Bar -->
+          <nav class="navbar">
+            <ul class="navbar-links">
+              <li><a href="{{ "/" | relative_url }}" class="button">About</a></li>
+              <li><a href="{{ "/projects/" | relative_url }}" class="button">Projects</a></li>
+              <li><a href="{{ "/publications/" | relative_url }}" class="button">Publications</a></li>
+              <li><a href="{{ "/docs/" | relative_url }}" class="button">Docs</a></li>
+            </ul>
+          </nav>
+          <main style="text-align: justify;">
+            {{ content }}
+          </main>
+        </div>
       </section>
+
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>

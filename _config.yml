@@ -1,10 +1,11 @@
 title: Smrithi S
 logo: /assets/img/logo.png
-description: Thanks for finding my site, please feel free to take a tour :)
+description: Engineer Consultant@ISRO - VSSC
 show_downloads: false
 show_socialmedia: true
 google_analytics:
 theme: jekyll-theme-minimal
 social_media:
+  googlescholar: "https://scholar.google.com/citations?user=NJhUjFQAAAAJ&hl=en"
   github: "https://github.com/smrithis"
   linkedin: "https://www.linkedin.com/in/smrithi-siddagangaiah/"
